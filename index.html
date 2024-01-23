@@ -31,11 +31,14 @@
       .font-manrope {
         font-family: 'Manrope', sans-serif;
       }
+      .contain-border{
+        border: 2px solid red;
+      }
   </style>
   </head>
   <body class="font-manrope">
     <header>
-      <div class="container h-[57px] mx-auto lg:px-24 px-8 py-8">
+      <div class="container h-[57px] mx-auto  w-[1170px] my-[50px]  contain-border">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
@@ -67,19 +70,167 @@
               
             </ul>
           </div>
+          
+
+
           <div class="navbar-end">
-            <a class="btn btn-secondary bike-primary-bg">Get Ticket</a>
+            <button class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+            </button>
+            <a class="btn btn-secondary bg-red-400">Get Ticket</a>
           </div>
         </div>
       </div>
       
 
+      <div class="container mx-auto  w-[1170px] ">
+        <div class="carousel w-full">
+          <!-- First Slider -->
+          <div id="slide1" class="carousel-item relative w-full bg-[url('./images/1.png')]
+          h-[70vh] flex items-center justify-center object-contain">
+          <div class="absolute bottom-[32px] right-[32px] bg-[#131318] rounded-2xl px-[32px] py-[32px] text-white w-[566px] h-[140px]">
+            <h6 class="font-extrabold mb-[16px]">Meet all the heroes from the field</h6>
+            <p class="font-[16px] text-[#ffffff]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+          </div>
+           
+        
+        
+            <div class="absolute bottom-[10px] left-[40px] transform -translate-y-1/2">
+              <a href="#slide3" class="btn btn-circle bg-[#131318] text-[#ffffff]">❮</a> 
+              <a href="#slide2" class="btn btn-circle bg-[#131318] text-[#ffffff]">❯</a>
+            </div>
+  
+          </div> 
+         
+  
+          <!-- 2nd Slider -->
+  
+          <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/banner2.png')]
+          h-[70vh] flex items-center justify-center object-contain">
+          <div class="absolute bottom-[32px] right-[32px] bg-[#131318] rounded-2xl px-[32px] py-[32px] text-white w-[566px] h-[185px]">
+            <h6 class="font-extrabold mb-[16px]">Meet all the heroes from the field</h6>
+            <p class="font-[16px] text-[#ffffff]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+          </div>
+           
+            
+            
+            <div class="absolute bottom-[10px] left-[40px] transform -translate-y-1/2">
+              <a href="#slide1" class="btn btn-circle bg-[#131318] text-[#ffffff]">❮</a> 
+              <a href="#slide3" class="btn btn-circle bg-[#131318] text-[#ffffff]">❯</a>
+            </div>
+  
+          </div>
+  
+         
+  
+        </div>
+  
+       
+       
+       
+       
+        
+  
+  
+      </div>
 
 
     </header>
     <main>
+      <div class="divider container w-[1170px] mx-auto mt-[100px] h-[1px] bg-[rgba(19, 19, 24, 0.20)]"></div>
+      <div class="mx-auto container w-[1170px] h-[90px] py-[32px]  text-center">
+        <h1 class="font-extrabold text-4xl text-[#131318] pb-[24px]">Professional Hockeys Club</h1>
+        <p class="font-medium text-base text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>dolor. Purus urna in sit nullam proin</p>
+      </div>
+    
+      <div class="divider container w-[1170px] mx-auto mt-[100px] h-[1px] bg-[rgba(19, 19, 24, 0.20)]"></div>
+    <!-- skill -->
 
+      <div class="container w-[1170px] mx-auto text-center  my-[25px] gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                  <div>
+                    <h1><div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div></h1>
+                    <h3 class="text-[#131318] font-semibold text-xl my-[10px]">Prayer Facility</h3>
+                    <p class="text-[#13131899] font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+
+                  </div>
+                  <div>
+                    <h1><div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div></h1>
+                    <h3 class="text-[#131318] font-semibold text-xl my-[10px]">Prayer Facility</h3>
+                    <p class="text-[#13131899] font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+
+                  </div>
+                  <div>
+                    <h1><div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div></h1>
+                    <h3 class="text-[#131318] font-semibold text-xl my-[10px]">Prayer Facility</h3>
+                    <p class="text-[#13131899] font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+
+                </div>
+                <div>
+                  <h1><div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div></h1>
+                  <h3 class="text-[#131318] font-semibold text-xl my-[10px]">Prayer Facility</h3>
+                  <p class="text-[#13131899] font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+
+              </div>
+        
+
+      </div>
+
+
+      <!-- Program Sections -->
+      <div class="divider container w-[1170px] mx-auto mt-[100px] h-[1px] bg-[rgba(19, 19, 24, 0.20)]"></div>
+      <div class="mx-auto container w-[1170px] h-[90px] py-[32px]  text-center">
+        <h1 class="font-extrabold text-4xl text-[#131318] pb-[24px]">Program Sections</h1>
+        <p class="font-medium text-base text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>dolor. Purus urna in sit nullam proin</p>
+      </div>
+    
+      <div class="divider container w-[1170px] mx-auto mt-[100px] h-[1px] bg-[rgba(19, 19, 24, 0.20)]"></div>
+
+      <div class="container w-[1170px] mx-auto text-center  my-[24px] gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+        
+          <div class="rounded-2xl bg-[linear-gradient(45deg,rgba(19,19,24,0.50),rgba(0,0,0,0.25)),url('./images/2.png')] h-[338px] w-[573px] relative">
+            
+            <div class="absolute top-[95px] left-[40px]  px-4 py-2 text-white w-[495px] h-[250px] text-left">
+              <h2 class="font-extrabold text-xl text-[#FFF]">Junior Program</h2>
+            <p class="my-[10px] font-medium text-base text-[#FFF]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <button class="btn btn-secondary bg-[#FF4240] mt-[14px] rounded-5">Register Now!
+            </button>
+            </div>
+            
+          </div>
+          <div class="rounded-2xl bg-[linear-gradient(45deg,rgba(19,19,24,0.50),rgba(0,0,0,0.25)),url('./images/3.png')] h-[338px] w-[573px] relative">
+            
+            <div class="absolute top-[95px] left-[40px]  px-4 py-2 text-white w-[495px] h-[250px] text-left">
+              <h2 class="font-extrabold text-xl text-[#FFF]">Teenager Program</h2>
+            <p class="my-[10px] font-medium text-base text-[#FFF]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <button class="btn btn-secondary bg-[#FF4240] mt-[14px] rounded-5">Register Now!
+            </button>
+            </div>
+            
+          
+        </div>
+
+        <div class="rounded-2xl bg-[linear-gradient(45deg,rgba(19,19,24,0.50),rgba(0,0,0,0.25)),url('./images/4.png')] h-[338px] w-[1170px]  bg-cover bg-center relative">
+            
+          <div class="absolute top-[95px] left-[40px]  px-4 py-2 text-white w-[495px] h-[250px] text-left">
+            <h2 class="font-extrabold text-xl text-[#FFF]">Professional Program</h2>
+          <p class="my-[10px] font-medium text-base text-[#FFF]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+          <button class="btn btn-secondary bg-[#FF4240] mt-[14px] rounded-5">Register Now!
+          </button>
+          </div>
+          
+        </div>
+
+
+      </div>
+
+
+
+    
     </main>
+
     <footer>
 
     </footer>
